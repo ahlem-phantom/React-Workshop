@@ -1,25 +1,21 @@
 import './App.css';
-
+import Product from './components/Product';
+import products from './products.json';
+import styled from 'styled-components';
 function App() {
-  const menu = (<div>
-    <ul id="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">FAQ</a></li>
-    <li><a href="#">Contact</a></li>
-    </ul>
-    </div>
-     );
-    
-  return (
-  <div>
-     {menu}
-     <div>
-     [Page content here]
-     </div>
-</div>
 
+  return (
+  <AppFrame className="App">
+    {products.map((product,index) => (
+      <Product product={product} key={index}></Product>
+    ))}
+  </AppFrame>
   );
 }
+
+const AppFrame = styled.div`
+  text-align: center;
+  display: flex;
+`;
 
 export default App;
