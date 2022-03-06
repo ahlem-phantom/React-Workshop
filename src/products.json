@@ -1,18 +1,27 @@
 [
-    {
-      "name": "Water bottle",
-      "price": "0.6",
-      "img": "https://previews.123rf.com/images/eugene78/eugene781702/eugene78170200180/71940602-blank-plastic-water-bottle.jpg"
-    },
-    {
-      "name": "Juice bottle",
-      "price": "1.5",
-      "img": "https://5.imimg.com/data5/JD/FY/MY-2693864/juice-bottle-500x500.jpg"
-    },
-    {
-      "name": "Milk",
-      "price": "1.2",
-      "img": "https://lakelandcamel.scene7.com/is/image/LakelandCamel/26391_1?$800$"
-    }
-  ]
-  
+  {
+    "id": "1",
+    "name": "Water bottle",
+    "price": "0.6",
+    "Description": "Lorem ipsum dolor sit amet. Ut ipsam libero et pariatur corporis sit saepe voluptatum est praesentium impedit qui aperiam aliquid ad enim molestias eos numquam quibusdam. Eum dignissimos dolorem ut obcaecati totam hic dolores dolores ad rerum rerum hic explicabo itaque aut vero officia ea excepturi architecto.",
+    "img": "https://previews.123rf.com/images/eugene78/eugene781702/eugene78170200180/71940602-blank-plastic-water-bottle.jpg",
+    "Likes": "0"
+
+  },
+  {
+    "id": "2",
+    "name": "Juice bottle",
+    "price": "1.5",
+    "Description": "Lorem ipsum dolor sit amet. Ut ipsam libero et pariatur corporis sit saepe voluptatum est praesentium impedit qui aperiam aliquid ad enim molestias eos numquam quibusdam. Eum dignissimos dolorem ut obcaecati totam hic dolores dolores ad rerum rerum hic explicabo itaque aut vero officia ea excepturi architecto.",
+    "img": "https://5.imimg.com/data5/JD/FY/MY-2693864/juice-bottle-500x500.jpg",
+    "Likes": "0"
+  },
+  {
+    "id": "3",
+    "name": "Milk",
+    "price": "1.2",
+    "Description": "Lorem ipsum dolor sit amet. Ut ipsam libero et pariatur corporis sit saepe voluptatum est praesentium impedit qui aperiam aliquid ad enim molestias eos numquam quibusdam. Eum dignissimos dolorem ut obcaecati totam hic dolores dolores ad rerum rerum hic explicabo itaque aut vero officia ea excepturi architecto.",
+    "img": "https://lakelandcamel.scene7.com/is/image/LakelandCamel/26391_1?$800$",
+    "Likes": "0"
+  }
+]
